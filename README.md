@@ -5,7 +5,7 @@ it a Travel Journal Application is a web app designed for users to document thei
 
 
 
-## What are the added features of SkyLine?
+## What are the added features of WanderLog?
 
 1. Sign up & Log-in.
 
