@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  color: #000;
+}
+
+.eren {
+  height: 100vh;
+  background: #f6f0f0;
+  background-image: url("../assets/04_1920-1080.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-form h2 {
+  color: #262525;
+  font-size: 2rem;
+}
+
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+
+  align-items: center;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.sign-up-form label {
+  display: block;
+  margin: 0.8rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.sign-up-form input {
+  width: 100%;
+  text-align: center;
+  padding: 0.8rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.sign-up-form input:active,
+.sign-up-form input:focus {
+  outline: 1px solid #3498db;
+}
+
+.sign-up-form button {
+  background-color: #3498db;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  padding: 0.4rem 1.3rem;
+  margin: 0.5rem 0;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.sign-up-form button:hover {
+  box-shadow: 0 8px 16px #3498db80;
+}
+
+.sign-up-form a {
+  color: #000;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.sign-up-form a:hover {
+  color: #3498db;
+}
+
+label {
+  font-size: 1.4rem;
+}
